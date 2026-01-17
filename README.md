@@ -1,11 +1,5 @@
 # The SQL Learning
 
-**Your Complete Journey from Absolute Beginner to Professional SQL Developer**
-
-Welcome to The SQL Learning! This comprehensive roadmap will guide you through mastering SQL/MySQL with structured learning paths, real-world examples, and practical exercises.
-
----
-
 ## 📚 SQL/MySQL Syllabus & Roadmap
 
 ### **Phase 1: SQL Fundamentals**
