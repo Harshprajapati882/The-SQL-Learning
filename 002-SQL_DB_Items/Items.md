@@ -11,7 +11,7 @@ A table is a collection of related data entries that consists of columns and row
 **Example:** A table named `Employees` with columns `ID`, `Name`, `Position`.
 
 ## Field
-A field is a single piece of data; it is a column in a table.
+A field is the intersection of a row and a column in a table. It contains a single piece of data.
 
 **Example:** In the `Employees` table, `Name` is a field.
 
@@ -46,7 +46,7 @@ Data integrity refers to the accuracy and consistency of data stored in a databa
 **Example:** Ensuring that all entries in the `Email` field follow a valid email format.
 
 ## Normalization
-Normalization is the process of organizing data to reduce redundancy.
+Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing large tables into smaller, related tables.
 
 **Example:** Splitting a `Customers` table into `Customers` and `Orders` tables to separate customer information from order details.
 

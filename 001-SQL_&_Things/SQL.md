@@ -11,6 +11,9 @@ SQL (Structured Query Language) is a standard programming language specifically 
 - **1999**: SQL:1999 introduces object-oriented features.
 - **2003**: SQL:2003 adds XML-related features.
 - **2011**: SQL:2011 introduces temporal data support.
+- **2016**: SQL:2016 adds JSON support, row pattern matching, and other enhancements.
+- **2019**: SQL:2019 adds Part 15 (Multi-dimensional arrays).
+- **2023**: SQL:2023 introduces Property Graph Queries (SQL/PGQ).
 
 ## ANSI
 ANSI SQL is the standard version of SQL defined by the American National Standards Institute. It serves as a guideline for SQL implementations across different database systems.
@@ -42,9 +45,14 @@ SQL architecture typically consists of three layers:
 3. **Database Storage**: Where data is physically stored.
 
 ## Flow Chart
-A flow chart can illustrate the process of a SQL query from user input to data retrieval.
+The typical flow of a SQL query execution is as follows:
+1.  **Client**: User sends a SQL query.
+2.  **Parser**: Checks syntax and semantics.
+3.  **Optimizer**: Determines the most efficient execution plan.
+4.  **Executor**: Executes the query plan.
+5.  **Storage Engine**: Retrieves or modifies data in storage.
+6.  **Result**: Data is returned to the user.
 
 ## RDBMS vs DBMS
 - **DBMS (Database Management System)**: A software system that enables the creation and management of databases. It provides a way to store, retrieve, and manage data.
 - **RDBMS (Relational Database Management System)**: A type of DBMS that is based on the relational model. It organizes data into tables and allows for relationships between them.
-
