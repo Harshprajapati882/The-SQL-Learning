@@ -1,4 +1,11 @@
--- SQL Code Examples
+/*
+================================================================================
+FILE: operations.sql
+TOPIC: Database Operations
+DESCRIPTION: SQL examples demonstrating CRUD operations (Create, Read, Update,
+Delete) and basic database operations
+================================================================================
+*/
 
 -- 1. Creating a Database
 -- Creates a new database if it doesn't already exist.

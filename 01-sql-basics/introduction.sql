@@ -1,4 +1,10 @@
--- SQL Code Examples
+/*
+================================================================================
+FILE: introduction.sql
+TOPIC: SQL Basics and Introduction
+DESCRIPTION: Basic SQL examples covering table creation and data manipulation
+================================================================================
+*/
 
 -- Create a table
 -- We use IF NOT EXISTS to avoid errors on subsequent runs

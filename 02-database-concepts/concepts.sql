@@ -1,6 +1,11 @@
--- ============================================
--- SQL EXAMPLES FOR KEY DATABASE CONCEPTS
--- ============================================
+/*
+================================================================================
+FILE: concepts.sql
+TOPIC: Database Concepts
+DESCRIPTION: SQL examples demonstrating key database concepts including RDBMS,
+Tables, Fields, Records, Columns, NULL values, Constraints, and Keys
+================================================================================
+*/
 
 -- 1. RDBMS - Creating a Database
 -- ============================================
